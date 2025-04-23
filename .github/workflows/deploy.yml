@@ -34,4 +34,11 @@ jobs:
       with:
         context: .
         push: true
-        tags: priyanshu004/food-delivery:latest  # Replace with your Docker Hub repo
+        tags: priyanshu004/food-delivery:latest
+
+    # Step 5: Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # Adjust the directory if necessary
