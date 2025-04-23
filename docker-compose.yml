@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8081:80"
+    volumes:
+      - "C:/Users/91891/OneDrive/Desktop/Devops/Food-Delivery-Website:/usr/share/nginx/html"
