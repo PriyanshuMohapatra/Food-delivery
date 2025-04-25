@@ -1,0 +1,1 @@
+bool sorted(int arr[],int i);

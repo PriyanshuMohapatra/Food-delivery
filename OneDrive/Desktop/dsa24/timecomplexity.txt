@@ -1,0 +1,83 @@
+ Arrays
+Access: O(1)
+Accessing an element by index is constant time.
+Search:
+Linear Search:
+Best: O(1) (element is the first in the array)
+Average: O(n)
+Worst: O(n)
+
+Binary Search (requires sorted array):
+Best: O(1) 
+Average: O(log n)
+Worst: O(log n)
+Insertion: O(n)
+Deletion: O(n)
+
+
+2. Sorting Algorithms (for Arrays)
+Bubble Sort:
+Best: O(n) (already sorted)
+Average: O(n^2)
+Worst: O(n^2)
+
+Selection Sort:
+Best: O(n^2)
+Average: O(n^2)
+Worst: O(n^2)
+
+Insertion Sort:
+Best: O(n) (already sorted)
+Average: O(n^2)
+Worst: O(n^2)
+
+Merge Sort:
+Best: O(n log n)
+Average: O(n log n)
+Worst: O(n log n)
+
+Quick Sort:
+Best: O(n log n)
+Average: O(n log n)
+Worst: O(n^2) (occurs with a poor pivot choice)
+
+3. Linked Lists
+Access: O(n)
+Must traverse the list from the head.
+Search: O(n)
+Insertion: O(1) (at head or tail)
+Deletion: O(1) (if the node to delete is known)
+
+4. Stacks
+Push: O(1)
+Pop: O(1)
+Peek: O(1)
+
+5. Queues
+Enqueue: O(1)
+Dequeue: O(1)
+Peek: O(1)
+
+6. Trees
+Binary Trees
+Access: O(n)
+Search: O(n)
+Insertion: O(n)
+Deletion: O(n)
+
+Binary Search Trees (BST)
+Access:
+Best: O(log n) (balanced tree)
+Worst: O(n) (unbalanced tree)
+
+Search:
+Best: O(log n)
+Worst: O(n)
+
+Insertion:
+Best: O(log n)
+Worst: O(n)
+
+Deletion:
+Best: O(log n)
+Worst: O(n)
